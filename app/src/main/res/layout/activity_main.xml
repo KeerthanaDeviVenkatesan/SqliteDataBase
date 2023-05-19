@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="391dp"
+        android:layout_height="68dp"
+        android:layout_margin="10dp"
+        android:hint="Id"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="389dp"
+        android:layout_height="62dp"
+        android:layout_margin="10dp"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="389dp"
+        android:layout_height="59dp"
+        android:layout_margin="10dp"
+        android:hint="Password" />
+
+
+    <Button
+        android:id="@+id/insert_button"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="btnInsertPressed"
+        android:text="Insert" />
+
+    <Button
+        android:id="@+id/fetch_button"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="btnFetchPressed"
+        android:text="Fetch" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="btnUpdatePressed"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="btnDeletePressed"
+        android:text="Delete" />
+
+
+</LinearLayout>
